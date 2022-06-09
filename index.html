@@ -4,9 +4,147 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>CV</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="assets/img/favicon.ico">
+    <link rel="preconnect" href="https://fonts.gstatic.com">  
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    
+    <header>
+        <div class="container">
+            <nav>
+                <ul class="nav-list">
+                    <li><a href="#contacts" class="nav-link">Contacts</a></li>
+                    <li><a href="#about-me" class="nav-link">About me</a></li>
+                    <li><a href="#skills" class="nav-link">Skills</a></li>
+                    <li><a href="#code-example" class="nav-link">Code example</a></li>
+                    <li><a href="#projects" class="nav-link">Projects</a></li>
+                    <li><a href="#work-expirience" class="nav-link">Work expirience</a></li>
+                    <li><a href="#education" class="nav-link">Education and courses</a></li>
+                    <li><a href="#languages" class="nav-link">Languages</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <div class="container main-container">
+            <section class="section-profile">
+                <img src="/assets/img/avatar1.png" class="section-profile-photo" width="300" height="300" alt="photo of Artemiy">
+                <div class="section-profile-title">
+                    <h1 class="section-title main-title">Artemiy Gudz</h1>
+                    <p><em>Junior Front-End Developer</em></p>
+                </div>
+            </section>
+            <section class="section" id="contacts">
+                <h2 class="section-title">Contacts:</h2>
+                <ul>
+                    <li class="section-item">Location: <a href="https://goo.gl/maps/Cp5LrFzLj3idkQuq7">Lipetsk, Russia</a></li>
+                    <li class="section-item">E-mail: <a href="mercartem@mail.ru">mercartem@mail.ru</a></li>
+                    <li class="section-item">Telegram: <a href="https://t.me/mercartem">@mercartem</a></li>
+                    <li class="section-item">Discord: <a href="https://discord.com/invite/zUr7wWYPXE">mercartem#6069</a></li>
+                    <li class="section-item">GitHub: <a href="https://github.com/mercartem">mercartem</a></li>
+                </ul>
+            </section>
+            <section class="section" id="about-me">
+                <h2 class="section-title">About me:</h2>
+                <p>
+                    I want to become a Frontend Developer! I am purposeful, patient, able to learn, I have good logical thinking.
+                    I love sports, especially football. In my free time, I read books, travel, and am interested in economics.
+                </p>
+            </section>
+            <section class="section" id="skills">
+                <h2 class="section-title">Skills:</h2>
+                <ul>
+                    <li><h3>Hard skills:</h3>
+                        <ul>
+                            <li>HTML</li>
+                            <li>CSS</li>
+                            <li>JavaScript (Basic)</li>
+                            <li>Python (Basic)</li>
+                            <li>Git</li>
+                        </ul>
+                    </li>
+                    <li><h3>Soft skills:</h3>
+                        <ul>
+                            <li>Ability to work efficiently both individually
+                                and in a team</li>
+                            <li>Communicative</li>
+                            <li>Resourcefulness</li>
+                        </ul>
+                    </li>
+                </ul>
+            </section>
+            <section class="section" id="code-example">
+                <h2 class="section-title">Code example:</h2>
+<pre class="pre">
+    <code>
+const solution = (str) => {
+    let result = '';
+    for (let i = 0; i &lt; length(str); i++) {
+        if (i === 0) {
+        result = toUpperCase(str[0]);
+        }
+        if (str[i - 1] === ' ') {
+        result += toUpperCase(str[i]);
+        }
+        else if (i != 0 && str[i - 1] != ' ') {
+        result = result + str[i];
+        }
+    }
+    return result
+};
+    </code>
+</pre>
+            </section>
+            <section class="section" id="projects">
+                <h2 class="section-title">Projects:</h2>
+                <ul>
+                    <li class="section-item"><a href="https://github.com/mercartem/rsschool-cv">CV</a></li>
+                </ul>
+            </section>
+            <section class="section" id="work-expirience">
+                <h2 class="section-title">Work expirience:</h2>
+                <ul>
+                    <li>Purchasing Manager; 2018 - 2022</li>
+                </ul>
+            </section>
+            <section class="section section-last" id="education">
+                <h2 class="section-title">Education and courses:</h2>
+                <ul>
+                    <li><h3>Universuty:</h3>
+                        <ul>
+                            <li>Lipetsk State Pedagogical University,
+                                Institute of Philology
+                                and Faculty of Technology and Entrepreneurship</li>
+                        </ul>
+                    </li>
+                    <li><h3>Courses:</h3>
+                        <ul>
+                            <li>Introduction to programming on Hexlet, JS</li>
+                            <li>HTML and CSS on Hexlet and Code Basics</li>
+                            <li>Web layout "Basic level" on Skillbox</li>
+                            <li>"Python Generation": a course for beginners on Stepik</li>
+                        </ul>
+                    </li>
+                </ul>
+            </section>
+            <section class="section section-last" id="languages">
+                <h2 class="section-title">Languages:</h2>
+                <ul>
+                    <li>Russian (native speaker)</li>
+                    <li>Russian Sign Language (native speaker)</li>
+                    <li>English (A1) - I study at the Albion language school, Lipetsk</li>
+                </ul>
+            </section>
+        </div>
+    </main>
+    <footer>
+        <div class="footer-container">
+        <a class="footer-link" href="https://github.com/mercartem">My GitHub</a>
+        <p>© 2022</p>
+        <a href="https://rs.school/js/"><img src="/assets/svg/rs_school_js.svg" width="100" height="100" alt="RS School"></a>
+        </div>
+    </footer>
 </body>
 </html>
