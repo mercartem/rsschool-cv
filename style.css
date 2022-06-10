@@ -20,7 +20,7 @@ body {
 }
 
 header {
-    background-color: aquamarine;
+    background-color: #d7d1c9;
 }
 
 .container  { 
@@ -76,7 +76,7 @@ header {
 
 .section {
     width: calc(50% - 20px);
-    border-bottom: 3px solid orange;
+    border-bottom: 3px solid #c8ced7;
     font-size: 16px;
 }
 
@@ -106,7 +106,7 @@ header {
     width: 100%;
     justify-content: space-around;
     padding: 30px 200px;
-    border-bottom: 10px solid orange;
+    border-bottom: 10px solid #c8ced7;
 }
 
 .section-profile-photo {
@@ -131,7 +131,7 @@ header {
 }
 
 .footer-container {
-    background-color: aquamarine;
+    background-color: #d7d1c9;
     display: flex;
     justify-content: space-around;
     align-items: center;
