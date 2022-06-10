@@ -1,5 +1,5 @@
 # Artemiy Gudz
-![Foto](/assets/img/Artem.png "Артемий")
+![Foto](./assets/img/Artem.png "Артемий")
 ## Contacts:
 * **E-mail:** mercartem@mail.ru
 * **Discord:** mercartem#6069
